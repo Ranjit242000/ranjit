@@ -41,4 +41,4 @@ ani.save('projectile.gif')
 # image = Image.open('projectile.gif')
 # st.image(image)
 if(st.button("Show")):
-    st.markdown('<img src="https://media.giphy.com/media/vFKqnCdLPNOKc/giphy.gif"/>', unsafe_allow_html=True)
+    st.markdown('projectile.gif', unsafe_allow_html=True)
