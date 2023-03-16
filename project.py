@@ -37,8 +37,8 @@ def update(num, x, y, line, circle):
     return line,circle
 ani = animation.FuncAnimation(fig, update, len(x), fargs=[x, y, line, circle],interval=25, blit=True)
 ani.save('projectile.gif')
-#st.pyplot(ani)
+st.pyplot(ani)
 # image = Image.open('projectile.gif')
 # st.image(image)
-if(st.button("Show")):
-    st.markdown('projectile.gif', unsafe_allow_html=True)
+# if(st.button("Show")):
+#     st.markdown('projectile.gif', unsafe_allow_html=True)
